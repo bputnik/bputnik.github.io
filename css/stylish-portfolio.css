@@ -413,7 +413,7 @@ a:hover, a:focus, a:active {
 }
 
 .css-typing  h3:nth-child(2) {
-  width: 19em;
+  width: 10em;
   opacity: 0;
   -webkit-animation: type2 2s steps(40, end);
   animation: type2 2s steps(40, end);
@@ -423,13 +423,24 @@ a:hover, a:focus, a:active {
   animation-fill-mode: forwards;
 }
 
-.css-typing h1:nth-child(3) {
+.css-typing  h3:nth-child(3) {
+  width: 10em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing h1:nth-child(4) {
   width: 4em;
   opacity: 0;
   -webkit-animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
   animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 4s;
-  animation-delay: 4s;
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
